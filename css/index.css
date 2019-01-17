@@ -263,3 +263,109 @@ header nav a {
   background-color: #FFFFFF;
   color: #17A2B8;
 }
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+  }
+  .container header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+  }
+  .container .top-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+  }
+  .container .content-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+  }
+  .container .content-section .text-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+    flex-grow: 2.5;
+    align-self: flex-start;
+  }
+  .container .content-section .img-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+    flex-grow: 2.5;
+    align-self: flex-start;
+  }
+  .container .inverse-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    padding: 5px;
+  }
+  .container .inverse-content .img-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    padding: 5px;
+    flex-grow: 2.5;
+    align-self: flex-start;
+  }
+  .container .inverse-content .img-content .text-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    padding: 5px;
+    flex-grow: 2.5;
+    align-self: flex-start;
+  }
+  .container .content-destination {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+  }
+  .container .content-pick {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+    padding: 0px 30px;
+  }
+  .container .content-pick .destination {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+    flex-grow: 2.5;
+    align-self: flex-start;
+  }
+  .container .btn {
+    font-size: 2rem;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+  }
+}
