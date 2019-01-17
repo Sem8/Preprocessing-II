@@ -12,12 +12,13 @@
     align-items: center;
 }
 
-.btn-styles(@width: 200px, @height: 200px, @bgcolor: white, @font-color: black) {
+.btn-styles(@width: 200px, @height: 200px, @bgcolor: white, @font-color: black, @font-size: 1rem) {
     width: @width;
     height: @height;
     background-color: @bgcolor;
     color: @font-color;
-    .border-radus(10px);
+    font-size: @font-size;
+    .border-radius(10px);
     .center();
     cursor: pointer;
     margin: 20px 0;

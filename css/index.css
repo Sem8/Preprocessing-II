@@ -244,3 +244,22 @@ header nav a {
   padding: 20px 0px;
   border-bottom: 2px dashed silver;
 }
+.btn {
+  width: 200px;
+  height: 40px;
+  background-color: #17A2B8;
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 20px 0;
+}
+.btn:hover {
+  background-color: #FFFFFF;
+  color: #17A2B8;
+}
