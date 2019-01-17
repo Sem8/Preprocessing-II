@@ -1,1 +1,31 @@
 // Mixins in here
+
+.border-radius(@radius) {
+    border-radius: @radius;
+    -webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+}
+
+.center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-styles(@width: 200px, @height: 200px, @bgcolor: white, @font-color: black) {
+    width: @width;
+    height: @height;
+    background-color: @bgcolor;
+    color: @font-color;
+    .border-radus(10px);
+    .center();
+    cursor: pointer;
+    margin: 20px 0;
+
+    &:hover {
+        background-color: @font-color;
+        color: @bgcolor;
+    }
+
+
+}
